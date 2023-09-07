@@ -116,14 +116,6 @@ body {
     }
     #count::before {
         content: '';
-        height: 120px;
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: -1;
-        width: 100%;
-        background-color: black;
-        opacity: 50%;
-        border-radius: 10%;
+        
     }
 }
