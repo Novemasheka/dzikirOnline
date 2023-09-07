@@ -45,19 +45,6 @@ body {
     z-index: 1  ;
     -webkit-text-stroke: 2px  black;
 }
-
-#count::before {
-    content: '';
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    width: 100%;
-    background-color: black;
-    opacity: 50%;
-    border-radius: 10%;
-}
 #click {
     border: 2px solid;
     border-radius: 50%;
@@ -113,9 +100,5 @@ body {
     .fisik {
         width: 100%;
         height: 400px;
-    }
-    #count::before {
-        content: '';
-        
     }
 }
